@@ -1,3 +1,4 @@
+/* the website's background color'*/
 #container {
 	width: 950px;
 	margin-left: auto;
@@ -8,6 +9,7 @@
 	background-color: orange;
 }
 
+/* the border of the image */
 #imgContainer img {
 	width: 910px;
 	margin-left: auto;
@@ -17,30 +19,39 @@
 	padding: 20px;
 }
 
-body {
-	
-}
-
+/* heading */
 h1 {
 	font-size: 50px;
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	font-family: courier;
-	font-style: bold;
+	font-family: impact;
 }
 
-p {
+/* bio text */
+#bioContainer p {	
+	font-size: 15px;
+	text-indent: 120px;
+	text-align: justify;
+}
+
+/* comment container */
+#commentContainer p {
+	font-size: 17px;
+}
+
+/* link text */
+#linkContainer p {
 	font-size: 20px;
 	margin-bottom: 20px;
 }
 
-#container a {
+/* embedded link and hover property */
+#linkContainer a {
 	color: black;
 }
 
-#container a:hover {
+#linkContainer a:hover {
 	background-color: black;
 	color: white;
 }
-
